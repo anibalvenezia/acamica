@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>CV - Anibal Venezia</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/unslider.css">
+	<link rel="stylesheet" href="css/extra.css">
+    <link href='//fonts.googleapis.com/css?family=Arimo' rel='stylesheet'>
+  </head>
+  <body>
+
+    <div id="main">
+      <!-- MENU LATERAL IZQUIERDO CON EL PERFIL -->
+      <aside id="perfil">
+        <img src="img/perfil.jpg" alt="Anibal Venezia" id="fotoperfil">
+        <ul>
+          <li><a href="#presentacion">Presentación</a></li>
+          <li><a href="#formacion">Formación</a></li>
+          <li><a href="#experiencia">Experiencia</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+        </ul>
+      </aside>
+
+      <!-- CONTENIDO DEL CV A LA DERECHA -->
+      <div id="contenido">
+        <div class="secciones" id="presentacion">
+          <h1>Presentación</h1>
+          <h2>Anibal Venezia</h2>
+          <h3>Front-End Jr.</h3>
+          <ul>
+            <li>Nombre: Anibal Venezia</li>
+            <li>Edad:32</li>
+            <li>Dirección: Bedoya 1136, Córdoba, Argentina.</li>
+            <li>Email: anibalvenezia@gmail.com</li>
+            <li>Teléfono: +54 351 592xxxx</li>
+            <li>Skype: anibalvenezia</li>
+          </ul>
+          <p>Soy Analista de Sistemas y actualmente me desempeño administrando servidores Oracle Weblogic en el área Middleware de una tarjeta de crédito.</p>
+          <p>Fuera de lo laboral estoy buscando ampliar conocimientos en el desarrollo y diseñoa web. Tengo fácil adaptación al trabajo en equipo, ya sea personalmente en un lugar físico o de manera remota.</p>
+
+        </div>
+
+        <div class="secciones" id="formacion">
+          <h1>Formación</h1>
+          <h3>Analista de Sistemas - Instituto Superior Santo Domingo</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+          <h3>Técnicatura en Programación - Universidad Tecnológica Nacional</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+          <h3>Bachiller Humanista - Colegio Nacional de Monserrat</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+          <div class="volver">
+            <a href="#">Volver</a>
+          </div><br>
+        </div>
+
+        <div class="secciones" id="experiencia">
+          <h1>Experiencia</h1>
+          <h3>Analista Middleware - Tarjeta Naranja SA</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+          <div class="volver">
+            <a href="#">Volver</a>
+          </div><br>
+        </div>
+
+        <div class="secciones" id="portfolio">
+          <h1>Portfolio</h1>
+          <div class="slider">
+            <ul>
+              <li><a href="#">Portfolio1</a></li>
+              <li><a href="#">Portfolio2</a></li>
+              <li><a href="#">Portfolio3</a></li>
+            </ul>
+          </div>
+
+          <div class="volver">
+            <a href="#">Volver</a>
+          </div><br>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/unslider.js"></script>
+    <script type="text/javascript">
+      jQuery(document).ready(function($) {
+        $('.slider').unslider({
+          arrows: false,
+          autoplay: true
+        });
+      });
+    </script>
+
+  </body>
+</html>

@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Overpass|Roboto+Condensed');
+
+/*Código armado por La Foca Loca S.A. No modificar*/
+body {
+  font-family: Arial, sans-serif;
+  width: 997px;
+  margin: 2% auto;
+  min-height: 100%;
+  background-image: url(../images/adventure.jpg);
+}
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+li {
+  padding: 5px 0;
+}
+li::before {
+  content: "• ";
+  color: #EC6778;
+}
+
+.col-40, .col-60{
+  display: table-cell;
+  margin: 0;
+  vertical-align: top;
+}
+.col-40 {
+  background: #FFF;
+  padding: 30px;
+  color: #000;
+  width: 40%;
+}
+
+.col-40 h1{
+  background-color: #f63d50;
+  color: #FFF;
+  font-family: 'Overpass', sans-serif;
+  text-align: center;
+  padding:0px;
+  letter-spacing: 10px;
+}
+
+.col-40 h2{
+  color: #f63d50;
+}
+
+#juego{
+  width: 600px; height: 600px;
+  background-color: #276369;
+}
+
+#juego div {
+  text-align: center;
+  animation: fadein 2s;
+}
+
+#footer{
+  background-color: #333;
+  color: #ddd;
+  width: 100%;
+}
+#footer p{
+  text-align: center;
+  padding-top: 7px; padding-bottom: 7px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 16px;
+  margin:0px;
+}
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+.pieza{
+  float: left;
+  box-sizing: border-box;
+}
+
+.pieza, .pieza img{
+  width: 200px; height: 200px;
+}
+
+.pieza img{
+  border: 1px solid #f63d50;
+}
+
+#cartel{
+  display: none;
+  background: white;
+  background-image: url(../images/adventure.jpg);
+  margin-left: auto; margin-right: auto;
+  position: fixed;
+  top:200px;
+  width: 60%;
+  padding: 80px;
+  box-sizing: border-box;
+  border:3px solid #f63d50;
+  border-radius: 15px;
+  text-align: center;
+}
+
+#cartel h1{
+  text-align: center;
+  color:#FF4000;
+  font-family: 'Oswald', sans-serif;
+  font-size: 30pt;
+}
+
+.boton {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+.boton:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.objetivo{
+  width: 240px; height: 240px;
+  background-color: #276369;
+  border:1px solid #1D2AA6;
+  margin-left: auto; margin-right: auto;
+}
+
+.objetivo img{
+  width: 80px; height: 80px;
+  float: left;
+  box-sizing: border-box;
+}
+
+.mezclar{
+  margin-top:15px;
+  float: right;
+}
